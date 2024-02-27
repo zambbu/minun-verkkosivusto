@@ -3,13 +3,14 @@ body {
     background-color: #1A1A1A;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 50px 50px;
+}
 
     figure {
-        border: 10px #1A1A1A;
+        border: 10px #ecebeb;
         padding: 4px;
         margin: auto;
         border-radius: 30px;
-        
+
     }
 
     #hierontakuva {
@@ -24,4 +25,3 @@ body {
     
 
 
-}
