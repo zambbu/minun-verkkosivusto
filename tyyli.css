@@ -23,6 +23,27 @@ body {
         font-size: 20px;
     }
 
+    nav a {background: #1A1A1A;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #FFFFFF;
+        text-decoration: none;
+        display: inline-block;
+
+        
+
+    }
+
+    nav a:hover {
+        color: #FFFFFF;
+        background-color: #1A1A1A;
+
+    }
+    #valittu {
+        color: aqua;
+        background-color: beige;
+
+    }
+
 
 
     
