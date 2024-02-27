@@ -4,6 +4,13 @@ body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 50px 50px;
 
+    #hierontakuva {
+
+        width: 1080;
+        max-width: 400;
+    }
+
+
 
     
     
