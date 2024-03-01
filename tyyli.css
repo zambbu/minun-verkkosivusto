@@ -17,10 +17,13 @@ body {
 
         width: 20%;
         max-width: 400;
+        display: block;
+        margin: auto;
     }
 
-    .esittely {
+    .esittely { 
         font-size: 20px;
+        text-align: center;
     }
 
     nav {text-align: center;
