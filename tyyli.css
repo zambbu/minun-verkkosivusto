@@ -1,8 +1,16 @@
 body {
+     /* Taustakuva 1 */
+    background-image: url('kuvat/taustakuva_oikea.jpg'), url('kuvat/taustakuva_vasen.jpg');
+    background-repeat: no-repeat, no-repeat; /* Täällä toisto on määritelty kullekin taustakuvulle erikseen */
+    background-attachment: fixed; /* Taustakuva pysyy paikoillaan näytön yläosassa */
+    background-position: right top, left top; /* Täällä määritellään sijainti kullekin taustakuvulle */
+    background-size: auto, auto; /* Täällä määritellään koko kullekin taustakuvulle */
     color: #FFFFFF;
     background-color: #1A1A1A;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 50px 50px;
+    @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+    font-family: 'Oswald', sans-serif; /* Käytä Oswald fonttia */
+    margin: 30px 300px;
+
 }
 
     figure {
@@ -29,27 +37,28 @@ body {
     nav {text-align: center;
     }
 
-    nav a {background: #1A1A1A;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        color: #FFFFFF;
+    nav a {
+        background: #FFFFFF;
+        color: #000000;
+        font-family: 'Oswald', sans-serif;
         text-decoration: none;
         display: inline-block;
-
-        
-
+        padding: 7px 7px; /* Lisätään hieman tilaa linkkien ympärille */
+        border-radius: 10px; /* Pyöristetyt reunat */
+        margin: 0px 0px 7px 7px; /* Lisätty tilaa linkkien väliin */
     }
-
+    
     nav a:hover {
         color: #FFFFFF;
-        background-color: #1A1A1A;
-
+        background-color: #000000;
     }
-    nav a.active-page {
-        background-color: rgba(255, 255, 255, 0.349);
-    }
-        
-
     
+    nav a.active-page {
+        background-color: #000000;
+        color: #FFFFFF;
+    }
+
+   
 
 
 
