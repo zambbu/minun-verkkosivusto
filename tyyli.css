@@ -44,11 +44,12 @@ body {
         background-color: #1A1A1A;
 
     }
-    #valittu {
-        color:#acada6
+    nav a.active-page {
+        background-color: rgba(255, 255, 255, 0.349);
+    }
         
 
-    }
+    
 
 
 
