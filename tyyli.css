@@ -17,11 +17,11 @@ body {
 @media only screen and (max-width: 600px) {
     /* CSS-säännöt mobiililaitteille */
     body {
-        margin: 10px;
+        margin: 20px;
         background-image: url('kuvat/taustakuva_oikea.jpg');
         background-repeat: no-repeat; 
         background-attachment: fixed; 
-        background-position: right top; 
+        background-position: right; 
     }
     /* Muita sääntöjä... */
 }
