@@ -21,7 +21,7 @@ body {
         background-image: url('kuvat/taustakuva_oikea.jpg');
         background-repeat: no-repeat; 
         background-attachment: fixed; 
-        background-position: right; 
+        background-position: right top;  
     }
     /* Muita sääntöjä... */
 }
