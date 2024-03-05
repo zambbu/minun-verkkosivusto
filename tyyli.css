@@ -18,6 +18,10 @@ body {
     /* CSS-säännöt mobiililaitteille */
     body {
         margin: 5px;
+        background-image: url('kuvat/taustakuva_oikea.jpg');
+        background-repeat: no-repeat, no-repeat; 
+        background-attachment: fixed; 
+        background-position: left top; 
     }
     /* Muita sääntöjä... */
 }
