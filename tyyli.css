@@ -13,6 +13,16 @@ body {
 
 }
 
+
+@media only screen and (max-width: 600px) {
+    /* CSS-säännöt mobiililaitteille */
+    body {
+        margin: 5px;
+    }
+    /* Muita sääntöjä... */
+}
+
+
     figure {
         border: 10px #ffffff;
         padding: 4px;
