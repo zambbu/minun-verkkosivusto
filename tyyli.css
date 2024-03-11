@@ -27,7 +27,7 @@ body {
 @media only screen and (max-width: 600px) {
     /* Muuta kuvan koko mobiililaitteille ja vaakasuuntaisille mobiililaitteille */
     #hierontakuva {
-        width: 100%; /* Säädetään prosenttiosuutta näytön leveydestä */
+        width: 80%; /* Säädetään prosenttiosuutta näytön leveydestä */
         max-width: none; /* Poista max-width, jotta kuva skaalautuu täysin */
         display: block;
         margin-left: auto;
