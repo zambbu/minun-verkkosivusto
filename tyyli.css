@@ -30,9 +30,24 @@ body {
         display: block;
         margin: auto;
     }
-}
+    @media only screen and (max-width: 900px) and (orientation: landscape) {
+        /* CSS-säännöt vaakasuuntaisille mobiililaitteille */
+        body {
+            margin: 20px;
+            background-image: url('kuvat/taustakuva_oikea.jpg');
+            background-repeat: no-repeat; 
+            background-attachment: fixed; 
+            background-position: right top;  
+        }
     
-
+        /* Muuta kuvan koko vaakasuuntaisille mobiililaitteille */
+        #hierontakuva {
+            width: 300px; /* Pienennetty kuvan leveys mobiililaitteille */
+            max-width: 100%; /* Varmistaa, että kuva skaalautuu oikein näytön leveyden mukaan */
+            display: block;
+            margin: auto;
+        }
+    }
 }
 
 
