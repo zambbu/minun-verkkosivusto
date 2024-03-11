@@ -1,5 +1,5 @@
 body {
-     /* Taustakuva 1 */
+     /* Taustakuvat */
     background-image: url('kuvat/taustakuva_oikea.jpg'), url('kuvat/taustakuva_vasen.jpg');
     background-repeat: no-repeat, no-repeat; /* Täällä toisto on määritelty kullekin taustakuvulle erikseen */
     background-attachment: fixed; /* Taustakuva pysyy paikoillaan näytön yläosassa */
