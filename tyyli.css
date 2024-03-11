@@ -44,9 +44,8 @@ body {
     }
 
     #hierontakuva {
-
         width: 500px;
-        max-width: auto;
+        max-width: 100%; /* Muutettu auto -> 100% */
         display: block;
         margin: auto;
     }
