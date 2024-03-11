@@ -27,7 +27,7 @@ body {
 @media only screen and (max-width: 600px) {
     /* Muuta kuvan koko mobiililaitteille */
     #hierontakuva {
-        width: 80%; /* Aseta kuvalle leveydeksi 100% näytöstä */
+        width: 100%; /* Aseta kuvalle leveydeksi 100% näytöstä */
         max-width: none; /* Poista max-width-määritys */
     }
 }
