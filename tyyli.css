@@ -51,11 +51,29 @@ body {
     }
 
     .esittely { 
-        font-size: 20px;
+        font-size: 16px;
         text-align: center;
+
+    .esittely .link {
+        color: #FFFFFF;
+        text-decoration: none;
+        text-decoration: underline;
+        }
+        
+    .esittely .link:hover {
+        color: rgb(153, 153, 153);
+        text-decoration: underline;
+        }
+        
+    .esittely .link:visited {
+        color: #ffffff;
+        text-decoration: none;
+        }
+          
     }
 
-    nav {text-align: center;
+    nav {
+        text-align: center;
     }
 
     nav a {
@@ -67,8 +85,9 @@ body {
         padding: 7px 7px; /* Lisätään hieman tilaa linkkien ympärille */
         border-radius: 10px; /* Pyöristetyt reunat */
         margin: 0px 0px 7px 7px; /* Lisätty tilaa linkkien väliin */
+
     }
-    
+
     nav a:hover {
         color: #FFFFFF;
         background-color: #000000;
@@ -77,13 +96,22 @@ body {
     nav a.active-page {
         background-color: #000000;
         color: #FFFFFF;
+
     }
 
-   
+/* Navigaation linkkien tyyli */
+nav .nav-link {
+    color: #000000;
+    text-decoration: none;
+}
 
+nav .nav-link:hover {
+    color: #FFFFFF;
+}
 
+/* Tekstissä olevien "tästä" linkkien erityistyyli */
+.custom-link {
+    color: white;
+    text-decoration: none;
 
-    
-    
-
-
+}
