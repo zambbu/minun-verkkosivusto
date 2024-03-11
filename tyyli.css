@@ -37,8 +37,8 @@ body {
 
     #hierontakuva {
 
-        width: 20%;
-        max-width: 400;
+        width: 200;
+        max-width: auto;
         display: block;
         margin: auto;
     }
