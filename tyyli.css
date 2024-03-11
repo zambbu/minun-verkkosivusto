@@ -25,15 +25,13 @@ body {
     }
 }
 @media only screen and (max-width: 600px) {
-    /* Muuta kuvan koko mobiililaitteille ja vaakasuuntaisille mobiililaitteille */
+    /* Muuta kuvan koko mobiililaitteille */
     #hierontakuva {
-        width: 80%; /* Säädetään prosenttiosuutta näytön leveydestä */
-        max-width: none; /* Poista max-width, jotta kuva skaalautuu täysin */
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        }
+        width: 80%; /* Aseta kuvalle leveydeksi 100% näytöstä */
+        max-width: none; /* Poista max-width-määritys */
     }
+}
+
 
 
     figure {
