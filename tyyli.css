@@ -26,8 +26,8 @@ body {
 
     /* Muuta kuvan koko mobiililaitteille ja vaakasuuntaisille mobiililaitteille */
     #hierontakuva {
-        width: 300px; /* Pienennetty kuvan leveys mobiililaitteille */
-        max-width: 100%; /* Varmistaa, että kuva skaalautuu oikein näytön leveyden mukaan */
+        width: 80%; /* Säädetään prosenttiosuutta näytön leveydestä */
+        max-width: none; /* Poista max-width, jotta kuva skaalautuu täysin */
         display: block;
         margin: auto;
     }
